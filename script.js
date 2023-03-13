@@ -83,11 +83,11 @@ for (let i = 0; i < radio_input.length; i = i + 1){
     if (radio_input[i].checked) {
         let result = radio_input[i].value;
         if (result == 'виски') {
-            document.querySelector('#img1').src = '33.png'
+            document.querySelector('#img1').src = 'Pictures/33.png'
         }else if(result == 'водка'){
-               document.querySelector('#img1').src = '22.png' 
+               document.querySelector('#img1').src = 'Pictures/22.png' 
              }else if(result == 'пиво'){
-                document.querySelector('#img1').src = '11.png' 
+                document.querySelector('#img1').src = 'Pictures/11.png' 
             }
     }
     
@@ -97,11 +97,11 @@ for (let i = 0; i < radio_input2.length; i = i + 1){
     if (radio_input2[i].checked) {
         let result2 = radio_input2[i].value;
         if (result2 == 'шоколад') {
-            document.querySelector('#img2').src = '55.png'
+            document.querySelector('#img2').src = 'Pictures/55.png'
         }else if(result2 == 'цветы'){
-               document.querySelector('#img2').src = '44.png' 
+               document.querySelector('#img2').src = 'Pictures/44.png' 
              }else if(result2 == 'трусы'){
-                document.querySelector('#img2').src = '66.png' 
+                document.querySelector('#img2').src = 'Pictures/66.png' 
             }
     }
     
